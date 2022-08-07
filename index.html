@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Personal Portfolio Website - Bimarsha Poudel</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/6b29dc37bd.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+       <div id="header" >
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student Researcher/Aspiring Filmmaker </p>
+                <h1>Hi, I'm Bimarsha.<br>  But call me <span> Rijul</span></h1>
+            </div>
+        </div>
+       </div>
+       <!-- -------about-------- -->
+
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am an 18-year-old impact-maker, who loves filmmaking and wants to give back to the society I live in. 
+  
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Filmmaking</span><br>Cinematography / Video Editing</li>
+                        <li><span>Research</span><br>Computational Biology</li>
+                        <li><span>Photography and Calligraphy</span><br>Social Media Posts</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Co-Founder at Team Ekikya</li>
+                        <li><span>2022 - Current</span><br>Financial Manager at Seedlings Nepal</li>
+                        <li><span>2022 - Current</span><br>Student Research Scholar at SRCN Nepal</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 SEE</span><br>SOS Hermann Gmeiner School Bharatpur (3.95)</li>
+                        <li><span>2020 Grade-11</span><br>SOS Hermann Gmeiner School Bharatpur (3.93)</li>
+                        <li><span>2021 Grade-12</span><br>SOS Hermann Gmeiner School Bharatpur (3.53)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- ---services------>
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>A fluent user of Apple Final Cut Pro and Apple Motion, I have been editing videos for 2 years.</p>
+                    <a href="#"> learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <h2>Research</h2>
+                    <p>Having done a few researches, I can help you as a partner in doing one. Better if it's something with biology! </p>
+                    <a href="#"> learn more</a>
+                </div>
+               
+
+            </div>
+        </div>
+       </div>
+       <!------portfolio------>
+       <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src=" images/work-1.png">
+                    <div class="layer">
+                        <h3>UltoPulto Khabar</h3>
+                        <p>UltoPulto Khabar won the best short video award on the topic 'Spread of false information' hosted by AYMON and UNFPA.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=" images/work-2.png">
+                    <div class="layer">
+                        <h3>Teen React to Single Mothers' Stories</h3>
+                        <p>After we (Ekikya) collected the difficult stories from single mothers, we scripted and gave it to read to random teens and captured their reaction.  </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=" images/work-3.png">
+                    <div class="layer">
+                        <h3>Introduction Video </h3>
+                        <p>This was my introduction video to Incubate Nepal, a little different touch than the typical intros.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+       </div>
+       <!-------contact-->
+       <div id="contact">
+        <div class="container">
+           <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>rijulpoudel72@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+9779845213238</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rijulpoudel/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/rijulpoudel/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/rijulpoudel"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="https://www.linkedin.com/in/bimarsha-poudel-27001b149/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+        
+            </form>
+            <span id="msg"></span>
+           </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright ©  Rijul. 2022 </p>
+        </div>
+       </div>
+
+       <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+       </script>
+       <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+
+        }
+       </script>
+       <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzMCALKTa_yolDz40kZAM3RXEuLTGTJz02YPI2CB_n2enDeRAPdx-QbPI2ZBZI-tb2I/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => { 
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    </body>
+</html>
